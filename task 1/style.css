@@ -1,0 +1,42 @@
+/* Basic page layout */
+body {
+  font-family: Arial, sans-serif;
+  background: #f2f2f2;
+  text-align: center;
+  padding: 80px;
+  font-size: 28px;
+}
+
+/* Quiz container */
+.container {
+  background: white;
+  padding: 60px;
+  max-width: 1000px;
+  margin: auto;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  border-radius: 15px;
+}
+
+/* Style for answer buttons */
+#answers button {
+  display: block;
+  margin: 20px auto;
+  padding: 20px;
+  width: 95%;
+  cursor: pointer;
+  font-size: 24px;
+  border-radius: 10px;
+}
+
+/* Next button style */
+#next-btn {
+  margin-top: 40px;
+  padding: 20px 40px;
+  font-size: 24px;
+  border-radius: 10px;
+}
+
+/* Hide elements using this class */
+.hidden {
+  display: none;
+}
